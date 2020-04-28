@@ -14,10 +14,12 @@
   <div>
     <h2>TABLE</h2>
       <table>
+        <caption>Scores by quarter</caption>
         <tr>
           <th colspan="2" rowspan="2">Team Name</th>
           <th colspan="2">First Half</th>
           <th colspan="2">Second Half</th>
+          <th colspan="2" rowspan="2">Final</th>
         </tr>
         <tr>
           <th>Q1</th>
@@ -26,25 +28,27 @@
           <th>Q4</th>
         </tr>
         <tr>
-          <td colspan="2">Denver</td>
-          <td>7</td>
+          <td colspan="2">San Francisco</td>
+          <td>14</td>
           <td>3</td>
-          <td>0</td>
+          <td>21</td>
           <td>7</td>
+          <td>45</td>
         </tr>
         <tr>
-          <td colspan="2">Chicago</td>
+          <td colspan="2">Denver</td>
           <td>3</td>
           <td>3</td>
           <td>0</td>
           <td>7</td>
+          <td>13</td>
         </tr>
       </table>
   </div>
   <div>
     <h2>LIST</h2>
     <ul>
-      <li><img src = "https://upload.wikimedia.org/wikipedia/commons/3/3a/San_Francisco_49ers_logo.svg" width="80" height="50"><br>
+      <li><img src = "https://upload.wikimedia.org/wikipedia/commons/3/3a/San_Francisco_49ers_logo.svg" width="70" height="40"><br>
         <a href="https://www.49ers.com/">San Francisco 49ers</a></li>
         <ul>
           <li>Coach: Kyle Shanahan</li>
@@ -67,7 +71,7 @@
     </div>
     <div>
     <ul>
-      <li><img src ="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg" width="80" height="50"><br>
+      <li><img src ="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg" width="70" height="40"><br>
         <a href="https://www.denverbroncos.com/">Denver Broncos</a></li>
         <ul>
           <li>Coach: Vic Fangio</li>
@@ -92,7 +96,7 @@
     </div>
     <div>
       <h2>FORM</h2>
-      <form action="" method="get">
+      <form action="" method="post">
         <label for="firstname">First name:</label>
         <input type="text" id="firstname" name="firstname">
         <label for="lastname">Last name:</label>
@@ -117,7 +121,7 @@
           <input type="checkbox" id="bet" name="played">
           <label for="bet">bet on this sport</label><br><br>
 
-        <label for="prefer">For this sport I prefer the:</label>
+        <label for="sportlevel">For this sport I prefer the:</label>
           <input type="radio" id="amateur" name="amatuer">
             <label for="amateur">amateur</label>
           <input type="radio" id="college" name="college">
