@@ -3,7 +3,23 @@
   font-family: sans-serif;
 }
 
+#scoreBoard {
+  border: 1px solid black;
+}
+
+table {
+  text-align: center;
+}
+
+table th {
+  background-color: goldenrod;
+}
+
 ul {
+  list-style-type: square;
+}
+
+ol {
   list-style-type: square;
 }
 
